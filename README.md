@@ -1,2 +1,2 @@
 # Curruculim Vitae 
-![test image size]<img src="./final.svg" width="700" height="700">
+<img src="./final.svg" width="400" height="400">
