@@ -1,9 +1,5 @@
 
-function tiempo(){
-  
-    
-    
-        
+function tiempo(){ 
     var horas, minutos, segundos, a;
     var  Tiempo = new Date();
         horas = parsetime(Tiempo.getHours()) ;
@@ -28,5 +24,7 @@ function parsetime(i)
 }
 setInterval(tiempo, 1000);
 
+function moveButton(){
 
+};
 
