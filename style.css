@@ -5,7 +5,7 @@
   --colorBordes: #0a2852;
   --textshadown: #808080;
   --colorHover: #f08080;
-  --backgroudcolor: #00b4deff;
+  --backgroudcolor: #f8f8f8;
 }
 * {
   font-style: normal;
@@ -20,7 +20,6 @@
   background-size: 400px;
   background-position-x: 50%;
   background-position-y: 50%;
-  background-color: var(--backgroudcolor);
   border-color: var(--colorBordes);
 }
 
@@ -41,7 +40,7 @@
 }
 .button {
   padding: 5px;
-  color: var(--colorTerciario);
+  color: var(--colorsecundario);
   width: 100px;
   height: 80px;
   cursor: default;
@@ -50,6 +49,7 @@
   text-shadow: #333 5px;
   border-radius: 5px;
 }
+
 .button:hover {
   border-style: solid;
   border-color: rgba(51, 51, 51, 0.1);
