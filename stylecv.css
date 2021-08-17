@@ -1,7 +1,17 @@
 body {
-  color: chartreuse;
+  color: #b76e22;
+  background-color: #f8f8f8;
+}
+.container-fluid {
+  width: 80%;
+  overflow: scroll;
 }
 .background {
-  background-color: cadetblue;
-  border-radius: 10px / 35px;
+  background-color: #c4d7dd;
+  width: 250px;
+  height: 250px;
+  margin-left: 75%;
+  margin-top: 20px;
+  border-radius: 300px 200px / 200px 250px;
+  border: solid rgb(51, 51, 51, 0.1) 2px;
 }
