@@ -1,4 +1,3 @@
-
 function tiempo(){ 
     var horas, minutos, segundos, a;
     var  Tiempo = new Date();

@@ -9,40 +9,92 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+  />
     <link rel="stylesheet" href="./stylecv.css" />
+    <script type="text/javascript" src="./script.js"></script>
+
     <title>Fran Senestrari</title>
   </head>
 
   <body>
+
     <div class="container-fluid">
       <div class="content">
         <div class="background">
           <i></i>
         </div>
+      </div>
+     
+      <div class="description">
         <h1 class="tilte">Francisco José Senestrari</h1>
 
-        <h2>Desarrollador y Artista</h2>
-
-        <h3>Perfil</h3>
+        <h2>Desarrollador</h2>
+        <div class="row row-cols-2">
+          <div class="col">
+            <h3>Perfil</h3>
         <p>
           Soy un desarrollador entuciasta amante de la tecnologia, que ha
-          participado en su epoca de estudiante en cursos de diferentes tipos de
+          participado en su epoca de estudiante en cursos de diferentes tipos y
           leguajes de programacion. Cuento con ganas de aprender constante mente
           nuevas tecnologia. Ademas de la programacion tengo pasatiempos amplios
           como el arte digital, en cual se destaca el modelado 3d y la
           animacion.
         </p>
         <h3>Idiomas</h3>
-        <p>- Español - Ingles (nivel inicial)</p>
+        <p>- Español - Ingles </p>
 
         <h3>Habilidades</h3>
 
         <p>
-          Desarrollo web (front end)| Vue js | Sails js | C |C++ |C#| Arduino
-          |Java | Blender3d |Unity
+          Desarrollo web (front end)| Vue js | Sails js | C |C++ | C# | Arduino
+          | Java | Blender3d | Unity
         </p>
-        <div class="social"></div>
-        <div class="description"></div>
+        <div class="social">
+          <h3>Social</h3>
+          <ul>
+            <li><a class="bi bi-github" href="https://github.com/FranciscoSenestrari"> Github</a></li>
+            <li>
+              <a class="bi bi-linkedin" href="https://ar.linkedin.com/in/francisco-senestrari-2b315a1b7"> Linkedin</a>
+            </li>
+            <li>
+              <a class="bi bi-instagram"  href="https://www.instagram.com/franse_art/"> Instagram</a>
+
+            </li>
+            <li>
+              <a class="bi bi-badge-3d-fill" href="https://sketchfab.com/franse_art"> Sketchfab</a>
+            </li>
+          </ul>
+
+          </div>
+          <div class="col">
+           
+
+
+          </div>
+        </div>
+        
+
+        </div>
+      </div>
+
+      <div class="sketchfab">
+        <!-- Insert an empty iframe -->
+        <iframe
+          src=""
+          id="api-frame"
+          allow="autoplay; fullscreen; vr"
+          allowvr
+          allowfullscreen
+          mozallowfullscreen="true"
+          webkitallowfullscreen="true"
+          onload="viewer()"
+        ></iframe>
+
+      
+        </script>
       </div>
     </div>
   </body>

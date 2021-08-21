@@ -4,7 +4,6 @@ body {
 }
 .container-fluid {
   width: 80%;
-  overflow: scroll;
 }
 .background {
   background-color: #c4d7dd;
