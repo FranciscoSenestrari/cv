@@ -3,6 +3,7 @@ body {
   background-color: #f8f8f8;
 }
 .container-fluid {
+  overflow-y: visible;
   width: 80%;
 }
 .background {
